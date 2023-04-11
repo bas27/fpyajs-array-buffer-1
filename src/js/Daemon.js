@@ -1,4 +1,4 @@
-import ModCharacter from "./ModCharacter";
+import ModCharacter from './ModCharacter';
 
 export default class Daemon extends ModCharacter {
   constructor(name, type = 'Daemon') {

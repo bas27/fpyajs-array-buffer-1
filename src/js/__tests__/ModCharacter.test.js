@@ -36,7 +36,7 @@ test('Проверка зависимости силы атаки от расс�
   const char1 = new Magician('Magic1');
   char1.valStoned = true;
   char1.valAttack = 2;
-  const recive = char1.valAttack
+  const recive = char1.valAttack;
 
   expect(recive).toBe(4);
 });
@@ -46,9 +46,3 @@ test('Вывод свойства stoned', () => {
   char1.valStoned = true;
   expect(char1.valStoned).toBe(true);
 });
-
-// test('Изменение уровня атаки при дурмане', () => {
-//   const char1 = new Magician('Magic1');
-//   char1.valStoned = true;
-//   expect(char1.valAttack).toBe(true);
-// });
